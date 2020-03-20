@@ -1,8 +1,13 @@
+h1 {
+	text-align: center;
+}
+
 .background{
 background-repeat: no-repeat;
 background-size: 100%;
 background-attachment: fixed;
 }
+
 .sections{
 	background-color: powderblue;
 	padding: 10px;
