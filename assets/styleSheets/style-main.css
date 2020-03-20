@@ -1,3 +1,10 @@
-html {
-	font-family: sans-serif;
+.background{
+background-repeat: no-repeat;
+background-size: 100%;
+background-attachment: fixed;
+}
+.sections{
+	background-color: powderblue;
+	padding: 10px;
+	border: 2px solid black;
 }
