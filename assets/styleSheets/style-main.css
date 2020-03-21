@@ -10,12 +10,14 @@ background-attachment: fixed;
 
 .sections{
 	background-color: powderblue;
+	border-radius: 25px;
 	padding: 10px;
 	border: 2px solid black;
 }
 
 .consoleImage{
 	float: right;
+	border-radius: 25px;
 }
 
 .gameImage{
