@@ -13,3 +13,12 @@ background-attachment: fixed;
 	padding: 10px;
 	border: 2px solid black;
 }
+
+.consoleImage{
+	float: right;
+}
+
+.gameImage{
+	width:150px;
+	height:150px;
+}
