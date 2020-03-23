@@ -12,11 +12,15 @@ background-attachment: fixed;
 	border: 2px solid black;
 }
 
-.navOptions{
+.navMain{
 	width: 300px;
 	text-align: center;
 	border: 2px solid black;
 	display: inline-block;
+}
+
+.hobbies{
+	display: hidden;
 }
 
 .sections{
