@@ -19,18 +19,12 @@ background-attachment: fixed;
 	display: inline-block;
 }
 
-.navMenuOptions{
-	border: 2px solid black;
-}
-
 .hobbies{
 	display: hidden;
-	border: 2px solid black;
 }
 
 .trivia{
 	display: hidden;
-	border: 2px solid black;
 }
 
 .sections{
