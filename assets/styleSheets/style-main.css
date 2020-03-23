@@ -8,6 +8,17 @@ background-size: 100%;
 background-attachment: fixed;
 }
 
+.navBar{
+	border: 2px solid black;
+}
+
+.navOptions{
+	width: 300px;
+	text-align: center;
+	border: 2px solid black;
+	display: inline-block;
+}
+
 .sections{
 	background-color: powderblue;
 	border-radius: 25px;
