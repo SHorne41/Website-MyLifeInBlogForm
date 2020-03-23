@@ -7,13 +7,21 @@ function dropdown(menuOption){
         for (i = 0; i < HOBBIESOPTIONS.length; i++){
             HOBBIESOPTIONS[i].style = "display: inline-block;";
         }
+    } else if (menuOption.id == "trivia"){
+        for (i = 0; i < TRIVIAOPTIONS.length; i++){
+            TRIVIAOPTIONS[i].style = "display: inline-block;";
+        }
     }
 }
 
 function reset(menuOption){
     if (menuOption.id == "hobbies"){
         for (i = 0; i < HOBBIESOPTIONS.length; i++){
-            HOBBIESOPTIONS[i].style = "display: hidden";
+            HOBBIESOPTIONS[i].style = "display: hidden;";
+        }
+    } else if (menuOption.id == "trivia"){
+        for (i = 0; i < TRIVIAOPTIONS.length; i++){
+            TRIVIAOPTIONS[i].style = "display: hidden;";
         }
     }
 }
