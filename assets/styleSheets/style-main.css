@@ -8,24 +8,6 @@ background-size: 100%;
 background-attachment: fixed;
 }
 
-.navBar{
-	border: 2px solid black;
-}
-
-.navMain{
-	width: 300px;
-	text-align: center;
-	border: 2px solid black;
-	display: inline-block;
-}
-
-.hobbies{
-	display: hidden;
-}
-
-.trivia{
-	display: hidden;
-}
 
 .sections{
 	background-color: powderblue;
