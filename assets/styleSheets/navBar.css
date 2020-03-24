@@ -78,10 +78,17 @@ nav li:hover{
     display: block;
 }
 
+/*
+If we didn't have different tiers, all dropdown content would be displayed when the user
+hovers their mouse over the first dropdown item.
+*/
 .dropdown-tier2:hover .dropdown-content-tier2{
     display: block;
 }
 
+/*
+Having different tiers allows the navigation bar to appropriately display the content.
+*/
 .dropdown-tier3:hover .dropdown-content-tier3{
     display: block;
 }
