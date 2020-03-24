@@ -21,8 +21,6 @@ nav li{
     box-sizing: border-box;
     display: inline-block;
     padding: 12px;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
 }
 
 nav .dropdown-content li:last-child{
