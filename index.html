@@ -6,21 +6,26 @@
 </head>
 <body style="background-image:url(assets/images/background.jpg);" class = "background">
 
+<!-- 1. Each item in the navigation bar is placed in a <li> within an <ul> in the .dropdown class
+2. Content for each of these .dropdown items is placed in an <ul> in the .dropdown-content class
+3. If there is subsequent dropdown to occur, must create a new tier to allow proper dropdown within CSS
+4. Content for different tiers must also be in tiers of their own (see navBar.css for clarification)
+-->
 <nav>
 	<ul>
 		<li><a href="index.html">Home</a></li>
-		<li class="dropdown">Hobbies & Interests
-			<ul class="dropdown-content">
-				<li class="dropdown-tier2">Sports
-					<ul class="dropdown-content-tier2">
+		<li class="dropdown">Hobbies & Interests			<!--See 1. above-->
+			<ul class="dropdown-content">					<!--See 2. above-->
+				<li class="dropdown-tier2">Sports			<!--See 3. above-->
+					<ul class="dropdown-content-tier2">		<!--See 4. above-->
 						<li href="hobbies/Sports/Hockey.html">Hockey</li>
 						<li href="hobbies/Sports/Softball.html">Softball</li>
 						<li href="hobbies/Sports/Squash.html">Squash</li>
 						<li href="hobbies/Sports/Soccer.html">Soccer</li>
 					</ul>
 				</li>
-				<li class="dropdown-tier3">Video Games
-					<ul class="dropdown-content-tier3">
+				<li class="dropdown-tier3">Video Games		<!--See 3. above-->
+					<ul class="dropdown-content-tier3">		<!--See 4. above-->
 						<li><a href="hobbies/videoGames/gameBoyColor.html">GameBoy Color (Christmas 2000)</a></li>
 					</ul>
 				</li>
