@@ -33,14 +33,14 @@ nav li:hover{
     position: relative;
 }
 
-.dropdown-options{
+.dropdown-layerOne{
     position: absolute;
     top: 100%;
     text-align: left;
     display: none;
 }
 
-.dropdown-content{
+.dropdown-layerTwo{
     position: absolute;
     top: 0;
     left: 100%;
@@ -48,13 +48,16 @@ nav li:hover{
     display: none;
 }
 
-.dropdown-content li{
+.dropdown-layerOne li{
     background-color: cyan;
     width: 100%;
-
 }
 
-.dropdown:hover .dropdown-content{
+.dropdown:hover .dropdown-layerOne{
+    display: block;
+}
+
+.dropdown-layerOne:hover .dropdown-layerTwo{
     display: block;
 }
 
