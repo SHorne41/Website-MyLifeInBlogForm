@@ -48,6 +48,14 @@ nav li:hover{
     display: none;
 }
 
+.dropdown-layerThree{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    text-align: left;
+    display: none;
+}
+
 .dropdown-layerOne li{
     background-color: cyan;
     width: 100%;
@@ -58,6 +66,10 @@ nav li:hover{
 }
 
 .dropdown-layerOne:hover .dropdown-layerTwo{
+    display: block;
+}
+
+.dropdown-layerTwo:hover .dropdown-layerThree{
     display: block;
 }
 
