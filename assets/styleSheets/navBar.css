@@ -26,7 +26,7 @@ nav li{
 nav .dropdown-content li:last-child{
     border-bottom: 1px solid black;
     border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    /*border-bottom-right-radius: 15px;*/
 }
 
 nav li:hover{
@@ -37,10 +37,34 @@ nav li:hover{
     position: relative;
 }
 
+.dropdown-tier2{
+    position: relative;
+}
+
+.dropdown-tier3{
+    position: relative;
+}
+
 .dropdown-content{
     position: absolute;
     top: 100%;
     left: 0;
+    text-align: left;
+    display: none;
+}
+
+.dropdown-content-tier2{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    text-align: left;
+    display: none;
+}
+
+.dropdown-content-tier3{
+    position: absolute;
+    top: 0;
+    left: 100%;
     text-align: left;
     display: none;
 }
@@ -54,8 +78,16 @@ nav li:hover{
     display: block;
 }
 
+.dropdown-tier2:hover .dropdown-content-tier2{
+    display: block;
+}
+
+.dropdown-tier3:hover .dropdown-content-tier3{
+    display: block;
+}
+
 nav a {
-    width: 100%;
+    width: relative;
     height: 100%;
     text-decoration: none;
     display: block;
