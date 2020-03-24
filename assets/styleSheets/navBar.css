@@ -33,10 +33,17 @@ nav li:hover{
     position: relative;
 }
 
-.dropdown-content{
+.dropdown-options{
     position: absolute;
     top: 100%;
-    left: 0;
+    text-align: left;
+    display: none;
+}
+
+.dropdown-content{
+    position: absolute;
+    top: 0;
+    left: 100%;
     text-align: left;
     display: none;
 }
