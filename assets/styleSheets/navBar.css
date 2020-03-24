@@ -69,9 +69,9 @@ nav li:hover{
     display: block;
 }
 
-.dropdown-layerTwo:hover .dropdown-layerThree{
+/*.dropdown-layerTwo:hover .dropdown-layerThree{
     display: block;
-}
+}*/
 
 nav a {
     width: 100%;
