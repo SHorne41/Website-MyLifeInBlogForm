@@ -7,6 +7,19 @@
 </head>
 <body style="background-image:url(assets/images/background.jpg);" class = "background">
 
+<!--Creating a navigation bar
+
+Main entries in the navBar are included in the .dropdown class (eg Hobbies & Interests). Options for each .dropdown
+entry are part of the .layerOne class (eg. Video Games). Subsequent dropdowns are part of the .layerTwo class
+(eg. Handheld Consoles). For the few layerTwo options that have options of their own, an additional layer
+(layerThree) was created.
+
+.dropdown elements are <li> of an unordered list. The closing tag for <li> comes after all layers have been added.
+Each additional layer is an unordered list of its own. Entries for these layers are simple <li>.
+
+If there are several layers from the same parent (two layerThrees branching off of one layerTwo), CSS :hover
+cannot be used (will only show the last layerThree entered in the HTML document). navBar.js was created to
+overcome this issue.-->
 <nav>
 	<ul>
 		<li><a href="index.html"><img src="/assets/images/homeButton.jpg" style="height: 100px; width: 100px;"></a><li>
@@ -23,6 +36,10 @@
 			<ul class="dropdown-layerOne">
 			<li>Video Games</li>
 				<ul class="dropdown-layerTwo">
+					<!--Handheld Console layer conflicts with Home console layer; using CSS, we'll only see
+					the 3rd layer that was input last rather than showing the one corresponding to the 2nd layer
+					the mouse is currently hovering over. JavaScript used to resolve this issue, hence the additional
+					class/id names that aren't present for other layers in the navBar-->
 					<li class="conflict"id="handheldConsole">Handheld Consoles</li>
 					<ul class="dropdown-layerThree conflict" id="travel" style="display: none;">
 						<li><a href="hobbies/videoGames/gameBoyColor.html">GameBoy Color (Christmas 2000)</a></li>
