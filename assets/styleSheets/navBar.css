@@ -33,45 +33,22 @@ nav li:hover{
     position: relative;
 }
 
-.dropdown-layerOne{
+.dropdown-content{
     position: absolute;
     top: 100%;
+    left: 0;
     text-align: left;
     display: none;
 }
 
-.dropdown-layerTwo{
-    position: absolute;
-    top: 0;
-    left: 100%;
-    text-align: left;
-    display: none;
-}
-
-.dropdown-layerThree{
-    position: absolute;
-    top: 0;
-    left: 100%;
-    text-align: left;
-    display: none;
-}
-
-.dropdown-layerOne li{
+.dropdown-content li{
     background-color: cyan;
     width: 100%;
 }
 
-.dropdown:hover .dropdown-layerOne{
+.dropdown:hover .dropdown-content{
     display: block;
 }
-
-.dropdown-layerOne:hover .dropdown-layerTwo{
-    display: block;
-}
-
-/*.dropdown-layerTwo:hover .dropdown-layerThree{
-    display: block;
-}*/
 
 nav a {
     width: 100%;
