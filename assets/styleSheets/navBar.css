@@ -26,7 +26,12 @@ nav li{
 nav .dropdown-content li:last-child{
     /*border-bottom: 1px solid black;*/
     border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     box-shadow: -5px 5px 5px black;
+}
+
+nav .dropdown-content li:first-child{
+    /*border-top-right-radius: 15px;*/
 }
 
 nav .dropdown-content li{
